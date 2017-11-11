@@ -8,6 +8,56 @@
   <title>CSS Stylesheets with Relative Paths</title>
 </head>
 
+<style>
+
+body {
+  background-color: #efeee7;
+  font-family: "Georgia",Times New Roman,Times,serif;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}  
+
+header {
+  background-color: #333333;
+}
+
+h1 {
+  color: #eee;
+  font-size: 28px;
+  background-color: #333333;
+  text-align: center;
+}
+
+
+h2 {
+  size: 24px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+img {
+  padding-left: 30px;
+}
+
+#main-bio {
+  float: left;
+  width: 70%;
+}
+
+#contact-info {
+  float: right;
+  width: 30%;
+}
+
+#bio-image {
+  float: left;
+  width: 200px;
+  margin: 10px;
+}
+
+</style>
+
 <body>
   <header>
     <h1>Student Bio</h1>
@@ -15,7 +65,7 @@
 
   <div>
 
-    <section>
+    <section style="#main-bio">
 
       <h2>Your Name</h2>
 
@@ -24,7 +74,7 @@
       <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
     </section>
 
-    <section>
+    <section style="#contact-info">
       <h2>Contact Info</h2>
       <ul>
         <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
